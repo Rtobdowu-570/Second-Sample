@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skylie Studios login page</title>
+    <link rel="stylesheet" href="/Css/ss.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
+</head>
+<body>
+    <div id="container">
+    <div id="left">
+        <div id="login">
+            <div class="logo">
+                <img src="images/sx.png"    alt="Skyline Studios"  width="250" height="100">
+            </div>
+            <form action="process.php"  target="_blank" method="post">
+                <div class="form-group">
+                    <label for="username">Email or Username:</label>
+                    <input type="text" name="username" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password:</label>
+                    <input type="password" name="password" minlength="8" required>
+                </div>
+                <button type="submit" class="primary-btn">Login</button>
+            </form>
+        
+        <a class="forgot" href="#">Forgot Password?</a>
+        <a class="forgot" href="#">Sign in with Company or School</a>
+
+        <div class="span">
+            <hr class="hr">
+            <span>or</span>
+            <hr class="hr">
+        </div>
+        <a class="secondary-btn" href="#">Create an account</a>
+    </div>
+
+        <footer id="footer">
+            <p>Copyright &copy; 2024 Skyline Studios. All rights reserved.</p>
+            
+              <a href="#">Privacy Policy</a> |
+              <a href="#">Terms of Use</a>
+
+        <div class="social">
+            <a href="#"><i class="bx bxl-facebook"></i></a>
+            <a href="#"><i class="bx bxl-twitter"></i></a>
+            <a href="#"><i class="bx bxl-google"></i></a>
+        </div>
+        </footer>
+    </div>
+
+    <div id="right">
+        <div id="right-content">
+        <p class="ps">Let's build something extraordinary together—where the sky is not the limit,
+            <strong>but just the beginning."</strong></p>
+            <a class="secondary-btn" href="#">Start a free 10-day trial</a>
+
+    </div>
+    </div>
+</body>
+</html>
